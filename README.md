@@ -10,9 +10,6 @@ A web-based location tracking application that allows users to track and display
 - **Distance Calculation**: Calculates the distance between the current location and a user-entered location.
 - **Responsive Design**: Works well across all devices (desktop, tablet, and mobile).
 
-## Demo
-
-You can view a live demo of the app by visiting [Link to Live Demo (if available)].
 
 ## Technologies Used
 

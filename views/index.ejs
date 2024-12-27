@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Menu Button -->
+    <div id="menu-button">☰</div>
+
+    <!-- Sidebar Menu -->
+    <div id="menu">
+        <!-- Location Input Section -->
+        <div class="location-input">
+            <h3>🌍 Location Tracker</h3>
+            <p class="description">Track locations in real-time and navigate effortlessly!</p>
+            <input type="text" id="latitudeInput" placeholder="Enter Latitude" class="input-field" />
+            <input type="text" id="longitudeInput" placeholder="Enter Longitude" class="input-field" />
+            <div class="buttons">
+                <button id="goToLocation" class="btn" title="Go to specified location">📍 Go to Location</button>
+                <button id="currentLocation" class="btn" title="Find your current location">📡 Current Location</button>
+                <button id="resetMap" class="btn" title="Reset map view">🔄 Reset Map</button>
+                <button id="clearInputs" class="btn" title="Clear input fields">✖️ Clear Inputs</button>
+            </div>
+        </div>
+
+        <!-- Distance Display -->
+        <div id="distanceDisplay" class="hidden">
+            <h3>📏 Distance Information</h3>
+            <p id="distanceValue"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

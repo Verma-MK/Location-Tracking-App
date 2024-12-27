@@ -18,7 +18,6 @@ A web-based location tracking application that allows users to track and display
 - **JavaScript**: For the dynamic behavior and interaction.
 - **Leaflet.js**: A powerful JavaScript library for interactive maps.
 - **Geolocation API**: For accessing the user’s location.
-- **Font Awesome**: For the icons used in the app (optional).
 
 ## Usage
 
@@ -31,7 +30,7 @@ A web-based location tracking application that allows users to track and display
 
 ## Contributing
 
-We welcome contributions to improve the app! To contribute:
+We welcome contributions to improve the app!
 
 ## License
 
